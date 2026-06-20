@@ -3,7 +3,7 @@ import Button from "@/components/modules/Button/Button";
 import Container from "@/components/modules/Container/Container";
 
 
-function Banner() {
+function IntroSection() {
     return (
        <>
            <div className={"relative"}>
@@ -48,4 +48,4 @@ function Banner() {
     );
 }
 
-export default Banner;
+export default IntroSection;
