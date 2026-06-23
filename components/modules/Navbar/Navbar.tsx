@@ -29,26 +29,28 @@ function NavbarHeader() {
                     <div className={"hidden md:flex"}>
                         <ul className={"flex flex-row-reverse"}>
                             <Link href={"/"}>
-
-                            </Link>
                             <li className={"ml-10"}>
                                 خانه
                             </li>
+
+                            </Link>
+                            <Link href={"/menu"}>
                             <li className={"ml-10"}>
                                 منو
                             </li>
+                            </Link>
+                           <Link href={"/aboutus"}>
+
                             <li className={"ml-10"}>
                                 درباره ما
                             </li>
+                           </Link>
+                            <Link href={"/contactus"}>
+
                             <li className={"ml-10"}>
                                 ارتباط با ما
                             </li>
-
-
-
-
-
-
+                            </Link>
 
                         </ul>
                     </div>
