@@ -4,6 +4,7 @@ import {useState} from "react";
 import NavbarSideBar from "@/components/modules/Navbar/SidebarNav";
 import image from "../../../public/assets/hero.png"
 import Button from "@/components/modules/Button/Button";
+import Link from "next/link";
 function NavbarHeader() {
 
     const [menuisOpen, setMenuOpen] = useState<boolean>(false);
@@ -27,6 +28,9 @@ function NavbarHeader() {
                     <NavbarSideBar menuisOpen = {menuisOpen} toggleMenu = {toggleMenu} />
                     <div className={"hidden md:flex"}>
                         <ul className={"flex flex-row-reverse"}>
+                            <Link href={"/"}>
+
+                            </Link>
                             <li className={"ml-10"}>
                                 خانه
                             </li>
@@ -39,6 +43,13 @@ function NavbarHeader() {
                             <li className={"ml-10"}>
                                 ارتباط با ما
                             </li>
+
+
+
+
+
+
+
                         </ul>
                     </div>
                     <div className={"flex flex-row-reverse hidden md:flex"}>
