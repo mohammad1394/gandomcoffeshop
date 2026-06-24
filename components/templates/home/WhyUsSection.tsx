@@ -13,31 +13,15 @@ type Feature = {
 }
 
 
-function WhyusSection() {
+async function WhyusSection() {
 
-    const [features, setFeatures] = useState<Feature[]>([]);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch("http://localhost:8000/featuresData");
-                const data = await res.json();
-                setFeatures(data)
-            }
-            catch (error ){
-                if (error instanceof Error) {
-                    console.log(error.message);
-                }
-            }
-        }
-
-        fetchData();
-    }, []);
+    const res = await fetch("http://localhost:8000/featuresData");
+    const data = await res.json();
 
 
 
     return (
-        <div className={'mt-40 relative'}>
+        <div className={'mt-20 relative'}>
 
 
             <img src={"assets/coffee_blast-2.png"}
@@ -46,7 +30,7 @@ function WhyusSection() {
             <Container>
                 <div className={"w-1/2 mx-auto text-center font-[Tanha] relative"}>
 
-                    <p className={"text-amber-950 text-[20px] lg:text-[35px]  mt-30"}>
+                    <p className={"text-amber-950 text-[20px] lg:text-[35px]  "}>
                         چرا کافه گوشه؟
                     </p>
                     <p className={"text-gray-500 text-[16px] "}>
@@ -73,7 +57,7 @@ function WhyusSection() {
 
             <div className={'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-[80%] mx-auto my-10'}>
                 {
-                    features.map((item, index) => (
+                    data.map((item : Feature, index: number) => (
                         <WhyUsItem key={index} {...item}/>
                     ))
                 }

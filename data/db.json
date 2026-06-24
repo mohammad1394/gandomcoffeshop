@@ -1,95 +1,119 @@
 {
-  "featuresData" : [
-  {
-    "id": 1,
-    "title": "قیمت مناسب",
-    "desc": "بهترین قهوه با کمترین قیمت!",
-    "icon": "/assets/why-1.png"
-  },
-  {
-    "id": 2,
-    "title": "فوق العاده",
-    "desc": "قهوه ای شگفت انگیز تجربه کنید",
-    "icon": "/assets/why-2.png"
-  },
-  {
-    "id": 3,
-    "title": "کیفیت عالی",
-    "desc": "ما بهترین کیفیت را فراهم میکنیم",
-    "icon": "/assets/why-3.png"
-  },
-  {
-    "id": 4,
-    "title": "قهوه های سلطنتی",
-    "desc": "با دانه های طلایی",
-    "icon": "/assets/why-4.png"
-  }
-],
-  "menuData" :[
-  {
-    "title" : "کاپوچینو کلاسیک",
-    "recipe" : "اسپرسو + شیر داغ",
-    "price" : 220000,
-    "url" : "../assets/image/coffee-1.png",
-    "off" : 0
-  },
-  {
-    "title" : "لاته آرت",
-    "recipe" : "اسپرسو + شیر داغ",
-    "price" : 150000,
-    "url" : "../assets/image/coffee-1.png",
-    "off" : 0
-  },
-  {
-    "title" : "موکا شکلاتی",
-    "recipe" : "اسپرسو + شیر داغ",
-    "price" : 230000,
-    "url" : "../assets/image/coffee-1.png",
-    "off" : 0
-  },
-  {
-    "title" : "آفوگاتو ایتالیایی",
-    "recipe" : "اسپرسو + بستنی وانیلی",
-    "price" : 180000,
-    "url" : "../assets/image/coffee-1.png",
-    "off" : 0
-  }
-],
+  "featuresData": [
+    {
+      "id": "1",
+      "title": "قیمت مناسب",
+      "desc": "بهترین قهوه با کمترین قیمت!",
+      "icon": "/assets/why-1.png"
+    },
+    {
+      "id": "2",
+      "title": "فوق العاده",
+      "desc": "قهوه ای شگفت انگیز تجربه کنید",
+      "icon": "/assets/why-2.png"
+    },
+    {
+      "id": "3",
+      "title": "کیفیت عالی",
+      "desc": "ما بهترین کیفیت را فراهم میکنیم",
+      "icon": "/assets/why-3.png"
+    },
+    {
+      "id": "4",
+      "title": "قهوه های سلطنتی",
+      "desc": "با دانه های طلایی",
+      "icon": "/assets/why-4.png"
+    }
+  ],
+  "menuData": [
+    {
+      "title": "کاپوچینو کلاسیک",
+      "recipe": "اسپرسو + شیر داغ",
+      "price": 220000,
+      "url": "assets/coffee-1.png",
+      "off": 0,
+      "id": "wmAtkm76QZ4"
+    },
+    {
+      "title": "لاته آرت",
+      "recipe": "اسپرسو + شیر داغ",
+      "price": 150000,
+      "url": "assets/coffee-2.png",
+      "off": 0,
+      "id": "TSbuvuHGJhQ"
+    },
+    {
+      "title": "موکا شکلاتی",
+      "recipe": "اسپرسو + شیر داغ",
+      "price": 230000,
+      "url": "assets/coffee-3.png",
+      "off": 0,
+      "id": "KMaCNkCk-aU"
+    },
+    {
+      "title": "آفوگاتو ایتالیایی",
+      "recipe": "اسپرسو + بستنی وانیلی",
+      "price": 180000,
+      "url": "assets/coffee-4.png",
+      "off": 0,
+      "id": "2rGAjFzQyNI"
+    }
+  ],
   "customers": [
     {
-      "id": 1,
+      "id": "1",
       "usename": "سارا محمدی",
       "img": "/assets/profile-1.jpg",
-      "productID" : 2,
-      "score" : 4.5,
+      "productID": 2,
+      "score": 4.5,
       "body": "این قهوه واقعاً خاص است!\nعطر آن به محض باز کردن بسته‌بندی فضای خانه را پر می‌کند.\nطعم آن بسیار متعادل و لذت‌بخش است، نه خیلی تلخ و نه خیلی ملایم.\nبه جرأت می‌توانم بگویم بهترین قهوه‌ای است که تا به حال نوشیده‌ام."
     },
     {
-      "id": 2,
+      "id": "2",
       "usename": "امیر حسینی",
       "img": "/assets/profile-2.jpg",
-      "productID" : 2,
-      "score" :  4.5,
+      "productID": 2,
+      "score": 4.5,
       "body": "من هر روز صبح با یک فنجان از این قهوه روزم را شروع می‌کنم.\nطعم غنی و عمیق آن انرژی لازم برای کل روز را به من می‌دهد.\nبافت آن بسیار نرم است و پس‌مزه خوشایندی دارد.\nبه همه دوستداران قهوه پیشنهاد می‌کنم این قهوه را حتماً امتحان کنند."
     },
     {
-      "id": 3,
+      "id": "3",
       "usename": "ساتیار رضایی",
       "img": "/assets/profile-3.jpg",
-      "productID" : 2,
-      "score" :  4.5,
+      "productID": 2,
+      "score": 4.5,
       "body": "قهوه‌های زیادی را امتحان کرده‌ام، اما این یکی واقعاً متفاوت است.\nتازگی دانه‌ها کاملاً در طعم آن حس می‌شود و عطر آن بی‌نظیر است.\nحتی بعد از نوشیدن، طعم آن برای مدت‌ها در دهانم باقی می‌ماند.\nاگر به دنبال یک قهوه باکیفیت و خوش‌طعم هستید، این گزینه عالی است."
     }
   ],
-  "newsLetters" : [
+  "newsLetters": [
     {
-      "id": 1 ,
-      "email" : "example@gmail.com"
+      "id": "1",
+      "email": "example@gmail.com"
     },
     {
-      "id": 2 ,
-      "email" : "alirezaee2020@gmail.com"
+      "id": "2",
+      "email": "alirezaee2020@gmail.com"
+    },
+    {
+      "email": "mohammadrazaviyan2005@gmail.com",
+      "id": "DpAyrtnU3-U"
+    },
+    {
+      "email": "mohammadrazaviyan2005@gmail.com",
+      "id": "FvcQ2EHiXEo"
+    },
+    {
+      "email": "mohammadrazaviyan2005@gmail.com",
+      "id": "itVKeGtilrc"
+    },
+    {
+      "email": "example@gmail.com",
+      "id": "rLHDFCjOMM4"
+    },
+    {
+      "email": "ali@gmai.com",
+      "id": "aYOuoUNsRWQ"
     }
-  ]
-
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
