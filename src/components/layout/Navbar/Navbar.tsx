@@ -1,9 +1,9 @@
 "use client";
 
 import {useState} from "react";
-import NavbarSideBar from "@/components/modules/Navbar/SidebarNav";
+import NavbarSideBar from "@/components/layout/Navbar/SidebarNav";
 import image from "../../../public/assets/hero.png"
-import Button from "@/components/modules/Button/Button";
+import Button from "@/components/UI/Button/Button";
 import Link from "next/link";
 function NavbarHeader() {
 
@@ -18,7 +18,7 @@ function NavbarHeader() {
 
         <div className={"bg-[url('/assets/hero.png')]  h-[90vh] bg-no-repeat relative bg-cover bg-center text-white font-[Tanha]"}>
             <div className={"w-[90%] mx-auto"}>
-                <div className="flex flex-row-reverse justify-between py-5">
+                <div className="flex flex-row justify-between py-5">
                     <div className={"hidden md:flex"}>
                         کافه گوشه
                     </div>
@@ -27,7 +27,7 @@ function NavbarHeader() {
                     </div>
                     <NavbarSideBar menuisOpen = {menuisOpen} toggleMenu = {toggleMenu} />
                     <div className={"hidden md:flex"}>
-                        <ul className={"flex flex-row-reverse"}>
+                        <ul className={"flex flex-row"}>
                             <Link href={"/"}>
                             <li className={"ml-10"}>
                                 خانه
@@ -54,7 +54,7 @@ function NavbarHeader() {
 
                         </ul>
                     </div>
-                    <div className={"flex flex-row-reverse hidden md:flex"}>
+                    <div className={"flex flex-row-reverse gap-2 hidden md:flex"}>
                         <Button className={"ml-5"}>
                             ثبت نام
                         </Button>

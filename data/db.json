@@ -27,36 +27,76 @@
   ],
   "menuData": [
     {
+      "id": "wmAtkm76QZ4",
       "title": "کاپوچینو کلاسیک",
-      "recipe": "اسپرسو + شیر داغ",
+      "description": "اسپرسوی تازه همراه با شیر بخار داده شده و فوم نرم، انتخابی کلاسیک برای عاشقان قهوه.",
+      "image": "/assets/coffee-1.png",
       "price": 220000,
-      "url": "assets/coffee-1.png",
-      "off": 0,
-      "id": "wmAtkm76QZ4"
+      "tags": ["قهوه گرم", "پرفروش"],
+      "rate": 4.9
     },
     {
+      "id": "TSbuvuHGJhQ",
       "title": "لاته آرت",
-      "recipe": "اسپرسو + شیر داغ",
+      "description": "ترکیب اسپرسوی دوبل با شیر تازه و لاته آرت حرفه‌ای، طعمی لطیف و متعادل.",
+      "image": "/assets/coffee-2.png",
       "price": 150000,
-      "url": "assets/coffee-2.png",
-      "off": 0,
-      "id": "TSbuvuHGJhQ"
+      "tags": ["قهوه گرم", "ملایم"],
+      "rate": 4.8
     },
     {
+      "id": "KMaCNkCk-aU",
       "title": "موکا شکلاتی",
-      "recipe": "اسپرسو + شیر داغ",
+      "description": "ترکیبی دلنشین از اسپرسو، شکلات تلخ و شیر بخار داده شده با طعمی شیرین و خاص.",
+      "image": "/assets/coffee-3.png",
       "price": 230000,
-      "url": "assets/coffee-3.png",
-      "off": 0,
-      "id": "KMaCNkCk-aU"
+      "tags": ["شکلاتی", "ویژه"],
+      "rate": 4.7
     },
     {
+      "id": "2rGAjFzQyNI",
       "title": "آفوگاتو ایتالیایی",
-      "recipe": "اسپرسو + بستنی وانیلی",
+      "description": "بستنی وانیلی با شات اسپرسوی داغ؛ دسر و نوشیدنی در یک فنجان.",
+      "image": "/assets/coffee-4.png",
       "price": 180000,
-      "url": "assets/coffee-4.png",
-      "off": 0,
-      "id": "2rGAjFzQyNI"
+      "tags": ["دسر", "ایتالیایی"],
+      "rate": 5
+    },
+    {
+      "id": "f4a2h1d7",
+      "title": "آیس لاته",
+      "description": "اسپرسو، شیر سرد و یخ؛ نوشیدنی خنک و محبوب برای روزهای گرم.",
+      "image": "/assets/latte.png",
+      "price": 190000,
+      "tags": ["قهوه سرد", "جدید"],
+      "rate": 4.8
+    },
+    {
+      "id": "j7k2p5z9",
+      "title": "آمریکانو",
+      "description": "اسپرسوی خالص رقیق شده با آب داغ، مناسب دوستداران طعم اصیل قهوه.",
+      "image": "/assets/americano.png",
+      "price": 140000,
+      "tags": ["قهوه گرم"],
+      "rate": 4.6
+    },
+    {
+      "id": "u9m1v8c3",
+      "title": "کارامل ماکیاتو",
+      "description": "ترکیبی از اسپرسو، شیر و سس کارامل با طعمی شیرین و دلپذیر.",
+      "image": "/assets/karamelmakiyato.png",
+      "price": 240000,
+      "tags": ["کارامل", "پرفروش"],
+      "rate": 4.9
+    },
+    {
+      "id": "l3q7x5b2",
+      "title": "کولد برو",
+      "description": "قهوه دم‌آوری شده به روش سرد با طعمی نرم، ملایم و کافئین بالا.",
+      "image": "/assets/coldbrew.png",
+      "price": 210000,
+      "tags": ["قهوه سرد"],
+      "rate": 4.8
     }
   ],
   "customers": [

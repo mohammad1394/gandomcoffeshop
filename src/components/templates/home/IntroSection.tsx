@@ -1,6 +1,6 @@
 
-import Button from "@/components/modules/Button/Button";
-import Container from "@/components/modules/Container/Container";
+import Button from "@/components/UI/Button/Button";
+import Container from "@/components/layout/Container/Container";
 
 
 function IntroSection() {

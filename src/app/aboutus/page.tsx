@@ -1,9 +1,6 @@
-"use client";
-
 import Image from "next/image";
-import { Coffee, Award, HeartHandshake, Users } from "lucide-react";
 import WhyUsSection from "@/components/templates/home/WhyUsSection";
-import Container from "@/components/modules/Container/Container";
+import Container from "@/components/layout/Container/Container";
 import CTASection from "@/components/templates/home/CTASection";
 
 export default function AboutPage() {

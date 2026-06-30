@@ -1,9 +1,9 @@
 "use client"
-import Container from "@/components/modules/Container/Container";
+import Container from "@/components/layout/Container/Container";
 import coffe from "@/assets/image/coffee_blast-2.png";
 import WhyUsItem from "@/components/modules/WhyUsItem/WhyUsItem";
 import {useEffect, useState} from "react";
-import Button from "@/components/modules/Button/Button";
+import Button from "@/components/UI/Button/Button";
 
 type Feature = {
     id : number;

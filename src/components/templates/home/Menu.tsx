@@ -1,20 +1,14 @@
 import React from 'react';
 import MenuItem from "@/components/modules/MenuItem/MenuItem";
-import Container from "@/components/modules/Container/Container";
+import Container from "@/components/layout/Container/Container";
+import {Product} from "@/types/Product";
 
-export interface Menu {
-    title: string
-    recipe: string
-    price: number
-    url: string
-    off: number
-    id: string
-}
+
 
 async function Menu() {
 
     const res = await fetch("http://localhost:8000/menuData")
-    const data = await res.json();
+    const data:Product[] = await res.json();
 
 
     return (
@@ -29,8 +23,8 @@ async function Menu() {
                 </div>
                 <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-[80%] mx-auto my-10"}>
                     {
-                        data.map((item : Menu ,index :number ) => (
-                            <MenuItem key={index} {...item}/>
+                        data.map((item : Product  ) => (
+                            <MenuItem key={item.id} {...item}/>
                         ))
                     }
                 </div>
